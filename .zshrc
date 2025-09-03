@@ -1,0 +1,11 @@
+[ -f ~/.zshrc.base ] && source ~/.zshrc.base
+
+# ref: https://github.com/pindexis/qfc
+[[ -s "$HOME/.qfc/bin/qfc.sh" ]] && source "$HOME/.qfc/bin/qfc.sh"
+
+#eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+
+#if which rbenv >/dev/null; then eval "$(rbenv init -)"; fi
+
+eval "$(starship init zsh)"
